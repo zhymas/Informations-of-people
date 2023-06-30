@@ -1,0 +1,8 @@
+{% extends 'human/home.html' %}
+{% block title %}
+Person
+{% endblock %}
+{% block content %}
+        <h1>{{person.first_name}} {{person.last_name}} {{person.pub_date}}</h1>
+        <a href="{% url 'delete' person.id %}">Delete person</a> <a href="{% url 'update' person.id %}">Update person</a>
+{% endblock %}

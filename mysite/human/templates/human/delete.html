@@ -1,0 +1,7 @@
+{% extends 'human/home.html' %}
+{% block title %}Delete Person{% endblock %}
+{% block content %}
+<form method="post">
+    {% csrf_token %}
+    <button type="submit">Delete person</button>{% endblock %}
+</form>

@@ -1,0 +1,32 @@
+#main-button li{
+  display: inline;
+    margin: 40px;
+}
+#main-button li a{
+    text-decoration: none;
+}
+html
+{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+/*#person a{*/
+/*    text-decoration: none;*/
+/*}*/
+#person{
+    display: block;
+    position: relative;
+    /*top: 50px;*/
+    right: 40px;
+    font-size: 24px;
+    /*list-style: none;*/
+    margin-top: 20px;
+}
+.line{
+    position: relative;
+    right: 55px;
+    background: black;
+    width: 200%;
+    height: 5px;
+}

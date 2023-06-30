@@ -1,0 +1,9 @@
+{% extends 'human/home.html' %}
+{% block title %}Create{% endblock %}
+{% block content %}
+<form action="{% url 'create' %}" method="post">
+    {% csrf_token %}
+    <h2>{{form.as_p}}</h2>
+    <button type="submit">Add</button>
+</form>
+{% endblock %}
